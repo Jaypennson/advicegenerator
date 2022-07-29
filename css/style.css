@@ -17,7 +17,7 @@ body {
 .advice-container {
   width: 550px;
   background-color: #323a49;
-  height: 350px;
+  height: auto;
   border-radius: 10px;
   color: #fff;
   position: relative; }
@@ -37,7 +37,8 @@ body {
 .advice-separator {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 1rem; }
   .advice-separator .line {
     border: 1px solid #4e5d73;
     background: #4e5d73;
@@ -70,9 +71,13 @@ body {
   width: 3rem;
   aspect-ratio: 1;
   position: absolute;
-  top: 95%;
+  top: 86%;
   left: 50%;
-  transform: translate(-50%, -5%);
+  transform: translate(-50%, -10%);
   display: grid;
   place-items: center;
   cursor: pointer; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .advice-container {
+    width: 350px; } }
