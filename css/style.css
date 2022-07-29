@@ -71,7 +71,7 @@ body {
   width: 3rem;
   aspect-ratio: 1;
   position: absolute;
-  top: 86%;
+  top: 95%;
   left: 50%;
   transform: translate(-50%, -10%);
   display: grid;
@@ -80,4 +80,6 @@ body {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .advice-container {
-    width: 350px; } }
+    width: 350px; }
+  .advice-description {
+    font-size: 22px; } }
