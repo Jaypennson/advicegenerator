@@ -70,9 +70,9 @@ body {
   width: 3rem;
   aspect-ratio: 1;
   position: absolute;
-  top: 92%;
+  top: 95%;
   left: 50%;
-  transform: translate(-50%, -8%);
+  transform: translate(-50%, -5%);
   display: grid;
   place-items: center;
   cursor: pointer; }
