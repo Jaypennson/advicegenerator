@@ -3,7 +3,7 @@ const fetchAdvice = async () => {
   const data = await res.json();
 
   console.log(data);
-  document.getElementById("title").innerHTML = `Advice # ${res.slip.id}`;
+  document.getElementById("title").innerHTML = `Advice # ${data.slip.id}`;
   document.getElementById("text").innerHTML = `${data.slip.advice}`;
 };
 
